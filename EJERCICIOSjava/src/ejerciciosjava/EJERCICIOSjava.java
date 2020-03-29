@@ -25,8 +25,9 @@ public class EJERCICIOSjava {
         System.out.println("Introduce numero 2:");
         num2 = teclado.nextInt();
         System.out.println("La multiplicacion + numero sorpresa es:"+ num*num2*num1);
-        System.out.println("¿Cual es el numero sorpresa, si este es resultado de multiplicacion");
+        System.out.println("¿Cual es el numero sorpresa x5?, si este es resultado de multiplicacion");
         sor = teclado.nextInt();
+        num1=num1*5;
         if(num1==sor)
             System.out.println("Has encontrado el numero sorpresa");
         else System.out.println("No es el numero sorpresa");
